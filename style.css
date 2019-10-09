@@ -1,0 +1,68 @@
+body {
+  background-image: -webkit-gradient(linear, left top, right top, from(green), color-stop(white), to(red));
+  background-image: linear-gradient(to right, green, white, red);
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+
+ul {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+ul li:hover {
+  background: darkgreen;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  background: darkred;
+}
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid darkred;
+}
+
+.sendbutton {
+  height: 2em;
+  width: 2em;
+}
+
+#contact {
+  position: relative;
+  top: 5em;
+}
+
+#serveur {
+  height: 70%;
+  width: 70%;
+}
+
+section {
+  padding-bottom: 3em;
+}
+
+@media (max-width: 768px) {
+  ul {
+    width: 100%;
+  }
+  ul li {
+    display: block;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
