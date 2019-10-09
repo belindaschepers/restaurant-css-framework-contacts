@@ -6,22 +6,22 @@ body {
   font-family: serif;
 }
 
-ul {
+.navbar {
   width: 80%;
   margin: 0 auto;
 }
 
-ul li {
+.navbar li {
   list-style: none;
   display: inline-block;
   padding: 20px;
 }
 
-ul li:hover {
+.navbar li:hover {
   background: darkgreen;
 }
 
-ul li a {
+.navbar li a {
   color: #fff;
   text-decoration: none;
 }
@@ -44,7 +44,7 @@ nav {
 
 #contact {
   position: relative;
-  top: 5em;
+  top: 3em;
 }
 
 #serveur {
