@@ -9,6 +9,8 @@ body {
 .navbar {
   width: 80%;
   margin: 0 auto;
+  position: relative;
+  right: 20px;
 }
 
 .navbar li {
@@ -56,11 +58,28 @@ section {
   padding-bottom: 3em;
 }
 
+#infos {
+  border: 2px solid darkred;
+  background-color: darkred;
+  color: white;
+  margin: auto;
+}
+
+.foot-title {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.icon {
+  height: 3em;
+  width: 3em;
+}
+
 @media (max-width: 768px) {
-  ul {
+  .navbar {
     width: 100%;
   }
-  ul li {
+  .navbar li {
     display: block;
     text-align: center;
   }
